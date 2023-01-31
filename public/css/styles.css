@@ -1,0 +1,104 @@
+
+@keyframes rainbow{
+    0%{
+        color: white;
+    }
+    10%{
+        color: #FF6961;
+    }
+    20%{
+        color: #FFB347;
+    }
+    30%{
+        color: #FDFD96;
+    }
+    40%{
+        color: #77DD77;
+    }
+    60%{
+        color: #A2CADF;
+    }
+    70%{
+        color: #8686AF;
+    }
+    80%{
+        color: #CB99C9;
+    }
+    90%{
+        color: #EA899A;
+    }
+    100%{
+        color: white;
+    }
+}
+
+@keyframes backgroundrainbow{
+    0%{
+        background-color: white;
+    }
+    10%{
+        background-color: #FF6961;
+    }
+    20%{
+        background-color: #FFB347;
+    }
+    30%{
+        background-color: #FDFD96;
+    }
+    40%{
+        background-color: #77DD77;
+    }
+    60%{
+        background-color: #A2CADF;
+    }
+    70%{
+        background-color: #8686AF;
+    }
+    80%{
+        background-color: #CB99C9;
+    }
+    90%{
+        background-color: #EA899A;
+    }
+    100%{
+        background-color: white;
+    }
+    
+}
+body{
+    background-color:  rgb(172, 234, 113);
+    margin: 20px;
+    font-family: 'Itim', cursive;
+    color: #333;
+    animation: backgroundrainbow 20s linear infinite;
+    
+}
+h2{
+    font-size: 35px;
+}
+h3{
+    font-size: 25px;
+}
+li{ 
+    font-size: 20px;
+}
+.ctn-header{
+    text-align: center;
+    background-color: #333;
+    padding: 20px;
+    margin: 10px;
+}
+.title{
+    display: inline-block;
+    color: white;
+    animation: rainbow 20s linear infinite;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.dvd{
+    width: 100px;
+    margin: 0px;
+    position: fixed;
+    top: -30px;
+    left: 0px;
+}
